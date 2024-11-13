@@ -1,3 +1,7 @@
+
+
+
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -129,7 +133,7 @@ def print_inorder_with_balance(avl_tree):
 def main():
     print("Starting")
     
-    dictionary_filename = 'dictionarywords.txt' 
+    dictionary_filename = 'dictionarywords.txt.txt' 
     dictionary_words = read_dictionary_file(dictionary_filename)
 
     avl_tree = AVLTree()
